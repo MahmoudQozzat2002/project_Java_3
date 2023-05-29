@@ -20,7 +20,7 @@ public class Test extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader l= new FXMLLoader(getClass().getResource("PatientLogin.fxml"));
+        FXMLLoader l= new FXMLLoader(getClass().getResource("BookedAppointments.fxml"));
         Parent p = l.load();
         Scene s = new Scene(p);
         primaryStage.setScene(s);

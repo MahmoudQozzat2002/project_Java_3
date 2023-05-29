@@ -8,9 +8,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="1024.0" style="-fx-background-color: #738d99;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java_3_project.AdminLoginController">
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="1024.0" style="-fx-background-color: #067777;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java_3_project.AdminLoginController">
    <children>
-      <VBox alignment="CENTER" layoutX="283.0" layoutY="105.0" prefHeight="411.0" prefWidth="453.0" style="-fx-background-color: #739999;" AnchorPane.bottomAnchor="104.0" AnchorPane.rightAnchor="288.0" AnchorPane.topAnchor="105.0">
+      <VBox alignment="CENTER" layoutX="283.0" layoutY="105.0" prefHeight="411.0" prefWidth="453.0" style="-fx-background-color: #077777;" AnchorPane.bottomAnchor="104.0" AnchorPane.rightAnchor="288.0" AnchorPane.topAnchor="105.0">
          <children>
             <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="284.0" text="Login as admin" textAlignment="CENTER">
                <font>
@@ -49,6 +49,9 @@
                      <font>
                         <Font name="Arial Bold" size="20.0" />
                      </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                </children>
                <VBox.margin>
@@ -57,7 +60,7 @@
             </HBox>
          </children>
       </VBox>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="370.0" layoutY="14.0" prefHeight="50.0" prefWidth="284.0" text="WELCOME" textAlignment="CENTER">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="370.0" layoutY="14.0" prefHeight="50.0" prefWidth="284.0" text="WELCOME Admin" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Algerian" size="32.0" />
          </font>
